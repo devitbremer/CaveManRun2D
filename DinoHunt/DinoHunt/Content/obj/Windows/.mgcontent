@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/DinoHunt/DinoHunt/Content/Player/idle.png</File>
+    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/DinoHunt/DinoHunt/Content/Player/jumpLeft.png</File>
+    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/DinoHunt/DinoHunt/Content/Player/jumpRight.png</File>
+    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/DinoHunt/DinoHunt/Content/Player/walkLeft.png</File>
+    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/DinoHunt/DinoHunt/Content/Player/walkRight.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
