@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinoHunt", "DinoHunt\DinoHunt.csproj", "{B6C93838-FC20-4DE2-8C27-BC7051E9A99D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6C93838-FC20-4DE2-8C27-BC7051E9A99D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6C93838-FC20-4DE2-8C27-BC7051E9A99D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6C93838-FC20-4DE2-8C27-BC7051E9A99D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6C93838-FC20-4DE2-8C27-BC7051E9A99D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3327F0B-9778-404F-9D93-C61500B3450A}
+	EndGlobalSection
+EndGlobal
