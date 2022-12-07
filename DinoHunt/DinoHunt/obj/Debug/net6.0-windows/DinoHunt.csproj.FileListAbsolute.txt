@@ -76,3 +76,4 @@ C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalPro
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\DinoHunt\DinoHunt\bin\Debug\net6.0-windows\Content\Music\theme-2.wma
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\DinoHunt\DinoHunt\bin\Debug\net6.0-windows\Content\Music\theme-2.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\DinoHunt\DinoHunt\bin\Debug\net6.0-windows\Content\Backgrounds\leaves.xnb
+C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\DinoHunt\DinoHunt\bin\Debug\net6.0-windows\Content\Fonts\RockFont.spritefont

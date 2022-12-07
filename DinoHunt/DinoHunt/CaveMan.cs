@@ -10,7 +10,7 @@ using System.IO;
 
 namespace DinoHunt
 {
-    public class DinoHunt : Game
+    public class CaveMan : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
@@ -34,7 +34,7 @@ namespace DinoHunt
 
         private const int numberOfLevels = 3;
 
-        public DinoHunt()
+        public CaveMan()
         {
             _graphics = new GraphicsDeviceManager(this);
             _graphics.IsFullScreen = false;

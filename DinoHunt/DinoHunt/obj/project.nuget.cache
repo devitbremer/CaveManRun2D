@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cCqXQznc0c0hEZolyEoFuj9ubDWo+t0mkGR0bziZl9W508+79QS5tsf4lz8sQujsheAHbmR7/PklHpixaQekWQ==",
+  "dgSpecHash": "Eeps6qusXpKS0a4FERlLSBv5It8VwKBBF4hUV8hS7KJ5AndElKK/ZSlB/Opm5gS2lBcI8e1a6e8TxkxonOIu1Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\DinoHunt\\DinoHunt\\DinoHunt.csproj",
+  "projectFilePath": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\DinoHunt\\DinoHunt\\CaveMan.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devit.bremer\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\devit.bremer\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",

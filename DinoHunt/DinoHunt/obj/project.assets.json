@@ -7537,9 +7537,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\DinoHunt\\DinoHunt\\DinoHunt.csproj",
-      "projectName": "DinoHunt",
-      "projectPath": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\DinoHunt\\DinoHunt\\DinoHunt.csproj",
+      "projectUniqueName": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\DinoHunt\\DinoHunt\\CaveMan.csproj",
+      "projectName": "CaveMan",
+      "projectPath": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\DinoHunt\\DinoHunt\\CaveMan.csproj",
       "packagesPath": "C:\\Users\\devit.bremer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\DinoHunt\\DinoHunt\\obj\\",
       "projectStyle": "PackageReference",

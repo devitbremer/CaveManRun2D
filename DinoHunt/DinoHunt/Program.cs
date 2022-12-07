@@ -1,3 +1,3 @@
 ﻿
-using var game = new DinoHunt.DinoHunt();
+using var game = new DinoHunt.CaveMan();
 game.Run();
