@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/DinoHunt/DinoHunt/Content/Player/idle.png</SourceFile>
-  <SourceTime>2022-12-01T08:42:22.4198388-05:00</SourceTime>
+  <SourceTime>2022-12-02T18:07:35.6041304-05:00</SourceTime>
   <DestFile>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/DinoHunt/DinoHunt/Content/bin/Windows/Player/idle.xnb</DestFile>
-  <DestTime>2022-12-01T11:33:14.9931657-05:00</DestTime>
+  <DestTime>2022-12-02T18:08:10.5432337-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T07:44:56-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
