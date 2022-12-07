@@ -9,7 +9,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <ApplicationIcon>Icon.ico</ApplicationIcon>
+    <ApplicationIcon>CaveMan.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="Content\Levels\0.txt" />
@@ -17,6 +17,7 @@
     <None Remove="Content\Levels\2.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CaveMan.ico" />
     <Content Include="Content\Levels\0.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -34,6 +35,11 @@
   <ItemGroup>
     <Folder Include="Content\Backgrounds\" />
     <Folder Include="Content\Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Content\Fonts\RockFont.spritefont">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Target Name="RestoreDotnetTools" BeforeTargets="Restore">
     <Message Text="Restoring dotnet tools" Importance="High" />
