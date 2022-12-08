@@ -1,4 +1,5 @@
 ﻿
+using CaveMan.GameClasses;
 using DinoHunt.GameClasses;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
@@ -35,7 +36,8 @@ namespace DinoHunt
         private KeyboardState keyboardState;
 
 
-
+        private BackgroundLeaves LeavesLayer1 { get; set; }
+        private BackgroundLeaves LeavesLayer2 { get; set; }
 
 
         public CaveMan()
@@ -62,6 +64,22 @@ namespace DinoHunt
             LoseScreen = Content.Load<Texture2D>("Screens/Lose");
             WelcomeScreen = Content.Load<Texture2D>("Screens/Start");
 
+
+            //Creates animation for level backgroud.
+            Vector2 stage = new Vector2(_graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight);
+            Texture2D tex = this.Content.Load<Texture2D>("Backgrounds/leaves");
+            Rectangle srcRect = new Rectangle(0, 0, tex.Width, tex.Height);
+
+
+            Vector2 pos = new Vector2(277, stage.Y - srcRect.Height - 5);
+            Vector2 speed = new Vector2(0.5f, 0);
+            LeavesLayer1 = new BackgroundLeaves(tex, pos, srcRect, speed);
+
+
+            Vector2 pos2 = new Vector2(698, stage.Y - srcRect.Height - 5);
+            Vector2 speed2 = new Vector2(0.55f, 0);
+            LeavesLayer2 = new BackgroundLeaves(tex, pos2, srcRect, speed2);
+
             ShowWelcomeScreen = true;
             LoadNextLevel();
 
@@ -79,6 +97,8 @@ namespace DinoHunt
 
                 //Level has the core game functionality (Player / Tile / Food / Animation)
                 level.Update(gameTime, keyboardState, gamePadState);
+                LeavesLayer1.Update(gameTime);
+                LeavesLayer2.Update(gameTime);
             }
             else
             {
@@ -152,6 +172,8 @@ namespace DinoHunt
             else
             {
                 level.Draw(gameTime, _spriteBatch);
+                LeavesLayer1.Draw(gameTime, _spriteBatch);
+                LeavesLayer2.Draw(gameTime, _spriteBatch);
 
                 DrawGameStatus();
             }

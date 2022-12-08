@@ -157,6 +157,18 @@
 /processorParam:TextureFormat=Color
 /build:Backgrounds/Layer3_2.png
 
+#begin Backgrounds/leaves.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Backgrounds/leaves.png
+
 #begin Fonts/RockFont.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor

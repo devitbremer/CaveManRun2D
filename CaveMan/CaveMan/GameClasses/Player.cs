@@ -334,14 +334,11 @@ namespace DinoHunt.GameClasses
             previousBottom = bounds.Bottom;
         }
 
-        public void OnReachedExit()
-        {
-            //sprite.PlayAnimation(celebrateAnimation);
-        }
+        //public void OnReachedExit()
+        //{
+        //    //sprite.PlayAnimation(celebrateAnimation);
+        //}
 
-        /// <summary>
-        /// Draws the animated player.
-        /// </summary>
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
             // Flip the sprite to face the way we are moving.

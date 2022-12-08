@@ -7,8 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Media;
-
-
+using CaveMan.GameClasses;
 
 namespace DinoHunt.GameClasses
 {
@@ -17,7 +16,7 @@ namespace DinoHunt.GameClasses
         // Physical structure of the Level.
         private Tile[,] tiles;
         private Texture2D[] staticLayers;
-        private const int EntityLayer = 2;
+        private const int numBackgroundLayers = 4;
         private Vector2 start;
         private Point exit = InvalidPosition;
         private static readonly Point InvalidPosition = new Point(-1, -1);
@@ -57,10 +56,11 @@ namespace DinoHunt.GameClasses
 
             TimeLeft = TimeSpan.FromMinutes(1.0);
 
+
             GenerateTilesArray(fileStream);
 
             //Dynamically generates static background based on Level.
-            staticLayers = new Texture2D[4];
+            staticLayers = new Texture2D[numBackgroundLayers];
             for (int i = 0; i < staticLayers.Length; ++i)
             {
                 int segmentIndex = levelIndex;
@@ -111,6 +111,7 @@ namespace DinoHunt.GameClasses
                     tiles[x, y] = LoadTexturesInTileArray(tileType, x, y);
                 }
             }
+
 
             // Verify that the Level has a beginning and an end.
             if (Player == null)
@@ -199,6 +200,8 @@ namespace DinoHunt.GameClasses
 
         }
 
+
+
         public void Dispose()
         {
             Content.Unload();
@@ -213,11 +216,11 @@ namespace DinoHunt.GameClasses
                 return TileCollision.Impassable;
 
 
-            //Get collision from tiles array.
+
             return tiles[x, y].Collision;
         }
 
-        //Creates a rectangle on each tile to generate collisions.
+
         public Rectangle CreateBounds(int x, int y)
         {
             return new Rectangle(x * Tile.Width, y * Tile.Height, Tile.Width, Tile.Height);
@@ -225,14 +228,14 @@ namespace DinoHunt.GameClasses
 
         public void Update(GameTime gameTime, KeyboardState keyboardState, GamePadState gamePadState)
         {
-
+            
             if (TimeLeft == TimeSpan.Zero)
             {
                 Player.ApplyPhysics(gameTime);
             }
             else if (ReachedExit && food.Count == 0)
             {
-                // Animate the time being converted into points.
+
                 int seconds = (int)Math.Round(gameTime.ElapsedGameTime.TotalSeconds * 100.0f);
                 seconds = Math.Min(seconds, (int)Math.Ceiling(TimeLeft.TotalSeconds));
                 TimeLeft -= TimeSpan.FromSeconds(seconds);
@@ -251,7 +254,6 @@ namespace DinoHunt.GameClasses
                 }
             }
 
-            // Clamp the time remaining at zero.
             if (TimeLeft < TimeSpan.Zero)
                 TimeLeft = TimeSpan.Zero;
         }
@@ -282,13 +284,13 @@ namespace DinoHunt.GameClasses
 
         private void OnExitReached()
         {
-            Player.OnReachedExit();
+            //Player.OnReachedExit();
             ReachedExit = true;
         }
 
         public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
-            for (int i = 0; i <= EntityLayer; ++i)
+            for (int i = 0; i < numBackgroundLayers; ++i)
             {
                 spriteBatch.Draw(staticLayers[i], Vector2.Zero, Color.White);
             }
@@ -299,17 +301,9 @@ namespace DinoHunt.GameClasses
             {
                 foodItem.Draw(gameTime, spriteBatch);
             }
-                
 
             
 
-            for (int i = EntityLayer + 1; i < staticLayers.Length; ++i)
-            {
-                spriteBatch.Draw(staticLayers[i], Vector2.Zero, Color.White);
-            }
-                
-
-            
             //DrawTiles
             for (int y = 0; y < Height; ++y)
             {
