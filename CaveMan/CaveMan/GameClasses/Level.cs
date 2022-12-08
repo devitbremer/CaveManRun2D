@@ -48,8 +48,6 @@ namespace DinoHunt.GameClasses
         // Level content.        
         public ContentManager Content { get; private set; }
 
-        private SoundEffect exitReachedSound;
-
 
         //Level constructor
         public Level(IServiceProvider serviceProvider, Stream fileStream, int levelIndex)
@@ -62,15 +60,12 @@ namespace DinoHunt.GameClasses
             GenerateTilesArray(fileStream);
 
             //Dynamically generates static background based on Level.
-            staticLayers = new Texture2D[3];
+            staticLayers = new Texture2D[4];
             for (int i = 0; i < staticLayers.Length; ++i)
             {
                 int segmentIndex = levelIndex;
                 staticLayers[i] = Content.Load<Texture2D>("Backgrounds/Layer" + i + "_" + segmentIndex);
             }
-
-            // Load sounds.
-            //exitReachedSound = Content.Load<SoundEffect>("Sounds/ExitReached");
 
 
             BackgroundSong = Content.Load<Song>("Music/theme-"+ levelIndex);
@@ -288,7 +283,6 @@ namespace DinoHunt.GameClasses
         private void OnExitReached()
         {
             Player.OnReachedExit();
-            //exitReachedSound.Play();
             ReachedExit = true;
         }
 
@@ -302,12 +296,18 @@ namespace DinoHunt.GameClasses
             
 
             foreach (Food foodItem in food)
+            {
                 foodItem.Draw(gameTime, spriteBatch);
+            }
+                
 
             
 
             for (int i = EntityLayer + 1; i < staticLayers.Length; ++i)
+            {
                 spriteBatch.Draw(staticLayers[i], Vector2.Zero, Color.White);
+            }
+                
 
             
             //DrawTiles

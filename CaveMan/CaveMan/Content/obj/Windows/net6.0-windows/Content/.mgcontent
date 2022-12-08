@@ -16,10 +16,6 @@
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Backgrounds/Layer3_0.png</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Backgrounds/Layer3_1.png</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Backgrounds/Layer3_2.png</File>
-    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Backgrounds/Layer4_0.png</File>
-    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Backgrounds/Layer4_1.png</File>
-    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Backgrounds/Layer4_2.png</File>
-    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Backgrounds/leaves.png</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Fonts/RockFont.spritefont</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Food.png</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Music/theme-0.ogg</File>
@@ -29,6 +25,7 @@
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Player/jump.png</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Player/run.png</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Screens/Lose.png</File>
+    <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Screens/Start.png</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Screens/Win.png</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/SoundFX/collectFood.mp3</File>
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/SoundFX/jump.mp3</File>
@@ -40,9 +37,6 @@
     <File>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Tiles/Platform2.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

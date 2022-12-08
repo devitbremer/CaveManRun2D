@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/Backgrounds/Layer3_2.png</SourceFile>
-  <SourceTime>2022-12-03T16:11:10.9843052-05:00</SourceTime>
+  <SourceTime>2022-12-03T16:11:34.1495881-05:00</SourceTime>
   <DestFile>C:/Users/devit.bremer/Documents/Conestoga/3rd Semester/Prog 2370 - Game/FinalProject/CaveManRun2D/CaveMan/CaveMan/Content/bin/Windows/Content/Backgrounds/Layer3_2.xnb</DestFile>
-  <DestTime>2022-12-06T22:03:26.828858-05:00</DestTime>
+  <DestTime>2022-12-08T07:04:28.5573931-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T07:44:56-04:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

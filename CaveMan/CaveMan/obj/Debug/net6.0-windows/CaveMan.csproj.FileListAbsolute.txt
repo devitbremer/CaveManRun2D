@@ -86,14 +86,9 @@ C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalPro
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer1_2.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer2_0.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer2_1.xnb
-C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer2_2.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer3_0.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer3_1.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer3_2.xnb
-C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer4_0.xnb
-C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer4_1.xnb
-C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer4_2.xnb
-C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\leaves.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Fonts\RockFont.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Food.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Music\theme-0.wma
@@ -156,3 +151,5 @@ C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalPro
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\obj\Debug\net6.0-windows\CaveMan.pdb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\obj\Debug\net6.0-windows\CaveMan.genruntimeconfig.cache
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\obj\Debug\net6.0-windows\ref\CaveMan.dll
+C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer2_2.xnb
+C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Screens\Start.xnb

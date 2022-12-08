@@ -19,20 +19,24 @@ namespace DinoHunt
         private SpriteFont GameFont;
         private Texture2D WinScreen;
         private Texture2D LoseScreen;
-        
+        private Texture2D WelcomeScreen;
+
 
         // Meta-Level game state.
         private int levelIndex = -1;
         private Level level;
+        private const int numberOfLevels = 3;
         private bool ContinueKeyPressed;
+        private bool ShowWelcomeScreen;
 
         //Triggers color alert that time is ending.
         private static readonly TimeSpan WarningTime = TimeSpan.FromSeconds(30);
-
         private GamePadState gamePadState;
         private KeyboardState keyboardState;
 
-        private const int numberOfLevels = 3;
+
+
+
 
         public CaveMan()
         {
@@ -56,20 +60,31 @@ namespace DinoHunt
 
             WinScreen = Content.Load<Texture2D>("Screens/Win");
             LoseScreen = Content.Load<Texture2D>("Screens/Lose");
+            WelcomeScreen = Content.Load<Texture2D>("Screens/Start");
 
+            ShowWelcomeScreen = true;
             LoadNextLevel();
+
+            
 
         }
 
 
         protected override void Update(GameTime gameTime)
         {
+            if (levelIndex >= -1 && ShowWelcomeScreen == false)
+            {
 
-            HandleInput(gameTime);
+                HandleInput(gameTime);
 
-            //Level has the core game functionality (Player / Tile / Food / Animation)
-            level.Update(gameTime, keyboardState, gamePadState);
+                //Level has the core game functionality (Player / Tile / Food / Animation)
+                level.Update(gameTime, keyboardState, gamePadState);
+            }
+            else
+            {
+                HandleInput(gameTime);                
 
+            }
 
             base.Update(gameTime);
         }
@@ -78,6 +93,13 @@ namespace DinoHunt
         {
             keyboardState = Keyboard.GetState();
             gamePadState = GamePad.GetState(PlayerIndex.One);
+
+
+            if (keyboardState.IsKeyDown(Keys.Enter) || gamePadState.IsButtonDown(Buttons.Start))
+            {
+                ShowWelcomeScreen= false;
+            }
+
 
             bool goToNextLevel =  keyboardState.IsKeyDown(Keys.Space) || gamePadState.IsButtonDown(Buttons.A);
 
@@ -123,9 +145,18 @@ namespace DinoHunt
             // TODO: Add your drawing code here
             _spriteBatch.Begin();
 
-            level.Draw(gameTime, _spriteBatch);
+            if (ShowWelcomeScreen == true)
+            {
+                _spriteBatch.Draw(WelcomeScreen, Vector2.Zero, Color.White);
+            }
+            else
+            {
+                level.Draw(gameTime, _spriteBatch);
 
-            DrawGameStatus();
+                DrawGameStatus();
+            }
+
+            
 
             _spriteBatch.End();
 
