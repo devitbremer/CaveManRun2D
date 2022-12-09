@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\CaveMan.csproj": {}
+    "C:\\conestoga\\Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\CaveMan.csproj": {}
   },
   "projects": {
-    "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\CaveMan.csproj": {
+    "C:\\conestoga\\Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\CaveMan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\CaveMan.csproj",
+        "projectUniqueName": "C:\\conestoga\\Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\CaveMan.csproj",
         "projectName": "CaveMan",
-        "projectPath": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\CaveMan.csproj",
-        "packagesPath": "C:\\Users\\devit.bremer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\devit.bremer\\Documents\\Conestoga\\3rd Semester\\Prog 2370 - Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\obj\\",
+        "projectPath": "C:\\conestoga\\Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\CaveMan.csproj",
+        "packagesPath": "C:\\Users\\chister\\.nuget\\packages\\",
+        "outputPath": "C:\\conestoga\\Game\\FinalProject\\CaveManRun2D\\CaveMan\\CaveMan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\devit.bremer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\chister\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
