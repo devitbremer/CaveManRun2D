@@ -77,7 +77,6 @@ C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalPro
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\DinoHunt\DinoHunt\obj\Debug\net6.0-windows\CaveMan.pdb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\DinoHunt\DinoHunt\obj\Debug\net6.0-windows\CaveMan.genruntimeconfig.cache
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\DinoHunt\DinoHunt\obj\Debug\net6.0-windows\ref\CaveMan.dll
-C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\SoundFX\jump.wma
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer0_0.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer0_1.xnb
 C:\Users\devit.bremer\Documents\Conestoga\3rd Semester\Prog 2370 - Game\FinalProject\CaveManRun2D\CaveMan\CaveMan\bin\Debug\net6.0-windows\Content\Backgrounds\Layer0_2.xnb
